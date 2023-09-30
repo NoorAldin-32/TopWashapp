@@ -1,0 +1,67 @@
+.inline {
+    clear: both;
+    width: 14px !important;
+
+    white-space: nowrap;
+}
+.badge-success {
+    background-color: #8a1199 !important;
+    color: white !important;
+}
+
+.text-bold {
+    font-weight: bold;
+    text-align: center;
+}
+
+.badge {
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.dtr-control {
+    clear: both;
+    width: 14px !important;
+
+    white-space: nowrap;
+}
+.badgess::before{
+    content: '+';
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 15px;
+    height: 15px;
+    font: 15px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    background-color: limegreen;
+}
+.badgess::after{
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 15px;
+    height: 15px;
+    font: 15px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.plus::before {
+    display: none;
+content: '';
+transition: .5s;
+/* width: 14px !important; */
+
+}
+.plus::after {
+    
+content: '-';
+transition: .5s;
+/* width: 14px !important; */
+
+}

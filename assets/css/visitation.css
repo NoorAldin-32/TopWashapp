@@ -1,0 +1,84 @@
+#box {
+    position:relative;
+    background:gray;
+    width:400px;
+    height:300px;
+    margin:20px 45px;
+}
+#ribbon {
+    position:absolute;
+    top:15px;
+    left:-20px;
+    width:360px;
+    height:55px;
+    background:#ff2702;
+    color:white;
+    padding:20px 40px;
+    font-size:24px;
+    font-weight:bold;
+    border-radius:5px 5px 0 0;
+    box-shadow:0 0 8px #333;
+    text-shadow:0 0 8px #000;
+}
+#ribbon:before {
+    content:'';
+    position:absolute;
+    bottom:-20px;
+    left:0;
+    border-top:solid 10px #ff2702;
+    border-right:solid 10px #ff2702;
+    border-bottom:solid 10px transparent;
+    border-left:solid 10px transparent;
+}
+#ribbon:after {
+    content:'';
+    position:absolute;
+    bottom:-20px;
+    right:0;
+    border-top:solid 10px #ff2702;
+    border-right:solid 10px transparent;
+    border-bottom:solid 10px transparent;
+    border-left:solid 10px #ff2702;
+}
+​
+#result{
+ 
+  gap: 10px;
+  padding: 10px 0;
+}
+.thumbnail {
+  height: 20x;
+}
+table tr td { padding: 5px; }
+table tr th { background: #fff7dd; }
+input[type=button] { width: 200px; margin: 20px auto; background: #CC0000; color: white; padding: 10px; }
+    .visitation>li>a:focus,
+    .visitation>li>a:hover {
+        text-decoration: none;
+        background-color: #d9edf7 !important;
+        color: white;
+    }
+
+    .nav-tabs>li.active>a,
+    .nav-tabs>li.active>a:focus,
+    .nav-tabs>li.active>a:hover {
+        background-color: #d9edf7;
+        color: white;
+    }
+
+    /* .visitation>li>a:active,
+    .visitation>li>a.show {
+        background-color: #BFACA9;
+        color: white;
+    } */
+
+    .nav-item {
+        cursor: pointer;
+    }
+
+    .nav-link {
+        cursor: pointer;
+    }
+    .green{
+        color: #007d3a !important;
+    }
